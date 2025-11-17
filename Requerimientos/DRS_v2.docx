@@ -1,1 +1,39 @@
+Mejoras Incorporadas en la Versión 2
 
+Esta versión incluye mejoras basadas en retroalimentación del usuario:
+
+Interfaz más organizada.
+
+Validación de campos vacíos.
+
+Mensajes de error más claros.
+
+Opción para agregar categorías personalizadas.
+
+2. Requerimientos Funcionales Actualizados (RF)
+
+RF1. Ingresar el monto total de ingresos mensuales.
+RF2. Registrar gastos fijos.
+RF3. Registrar gastos variables.
+RF4. Calcular automáticamente el saldo disponible.
+RF5. Mostrar alertas si el presupuesto es negativo.
+RF6. Permitir limpiar campos para reiniciar el cálculo.
+RF7. Validar que los campos numéricos no estén vacíos.
+RF8. Permitir agregar nuevas categorías de gasto.
+RF9. Mostrar un resumen claro de ingresos, gastos y saldo.
+
+3. Requerimientos No Funcionales Actualizados (RNF)
+
+RNF1. Usabilidad: Diseño más intuitivo con etiquetas claras.
+RNF2. Rendimiento: Cálculos en tiempo real mientras el usuario escribe.
+RNF3. Compatibilidad: Funciona en móvil y escritorio.
+RNF4. Seguridad: No se guarda ninguna información del usuario.
+RNF5. Accesibilidad: Botones grandes y colores contrastados.
+
+4. Alcance Mejorado (Versión 2)
+
+Se añaden validaciones para evitar errores.
+
+Se mejora la presentación de resultados.
+
+Se optimiza estructura de la interfaz.
