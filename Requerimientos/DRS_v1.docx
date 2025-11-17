@@ -1,1 +1,16 @@
+Requerimientos Funcionales (RF)
 
+RF1. El sistema debe permitir ingresar el monto total de ingresos mensuales.
+RF2. El sistema debe permitir registrar los gastos fijos (alimentación, transporte, servicios, etc.).
+RF3. El sistema debe permitir registrar gastos variables.
+RF4. El sistema debe calcular automáticamente el saldo disponible.
+RF5. El sistema debe mostrar un mensaje si el usuario gasta más de lo que gana.
+RF6. El sistema debe permitir limpiar los datos para hacer un nuevo cálculo.
+
+3. Requerimientos No Funcionales (RNF)
+
+RNF1. Usabilidad: La interfaz debe ser simple y clara para usuarios sin conocimientos técnicos.
+RNF2. Rendimiento: Todos los cálculos deben ejecutarse en menos de 1 segundo.
+RNF3. Portabilidad: El sistema debe funcionar en cualquier navegador moderno.
+RNF4. Seguridad: Los datos ingresados no deben guardarse permanentemente.
+RNF5. Accesibilidad: Los textos deben ser legibles y bien organizados.
