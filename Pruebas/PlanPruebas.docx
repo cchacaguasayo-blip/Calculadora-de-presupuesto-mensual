@@ -1,1 +1,9 @@
-
+Caso de Prueba	Descripción	Entrada	Proceso / Acción	Resultado Esperado	Validación
+CP01 – Cálculo de presupuesto correcto	Verificar que el sistema calcule correctamente el presupuesto mensual	Ingresos: 800
+Gastos: 500	Presionar botón Calcular	Resultado mostrado: Presupuesto disponible = 300	El sistema muestra "Presupuesto disponible: 300" correctamente
+CP02 – Manejo de campos vacíos	Validar que el sistema no permita calcular sin ingresar datos	Ingresos: vacío
+Gastos: 200	Presionar Calcular	Mensaje de error: "Por favor ingrese todos los campos"	El sistema muestra el mensaje de error y no calcula
+CP03 – Validación de números negativos	Validar que el sistema no acepte valores negativos	Ingresos: -100
+Gastos: 200	Presionar Calcular	Mensaje: "Los valores no pueden ser negativos"	Se bloquea la operación y aparece el mensaje
+CP04 – Cálculo con valores altos	Verificar que el sistema soporte números grandes	Ingresos: 5000
+Gastos: 1200	Presionar Calcular	Resultado: 3800	El sistema entrega el cálculo correcto sin fallar
